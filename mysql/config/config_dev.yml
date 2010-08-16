@@ -1,0 +1,19 @@
+imports:
+    - { resource: config.yml }
+
+zend.logger:
+    priority: notice
+    path:     %kernel.logs_dir%/%kernel.environment%.log
+
+web.config:
+    toolbar: true
+
+doctrine.dbal:
+  connections:
+    default:
+      driver:               PDOMySql
+      dbname:               sf2test
+      user:                 root
+      password:             ~
+      host:                 localhost
+      port:                 ~

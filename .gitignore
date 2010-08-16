@@ -1,0 +1,11 @@
+/mysql/config/config*_local.yml
+/mysql/config/config_test.yml
+/mysql/cache/*
+/mysql/logs/*
+/mongo/config/config*_local.yml
+/mongo/config/config_test.yml
+/mongo/cache/*
+/mongo/logs/*
+
+# external software files
+tags
