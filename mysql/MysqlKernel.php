@@ -29,6 +29,7 @@ class MysqlKernel extends Kernel
             new Bundle\MenuBundle\MenuBundle(),
             new Bundle\DoctrineUserBundle\DoctrineUserBundle(),
             new Bundle\TestSessionBundle\TestSessionBundle(),
+            new Bundle\OfflineBundle\OfflineBundle(),
 
             // register your applications here
             //new Application\Bundle\MysqlBundle()
@@ -72,8 +73,6 @@ class MysqlKernel extends Kernel
         $container = new ContainerBuilder();
 
         $loader->load($this->getLocalConfigurationFile($this->getEnvironment()));
-
-        $container->setParameter('validator.message_interpolator.class', 'Bundle\\OfflineBundle\\Validator\\NoValidationXliffMessageInterpolator');
 
         return $container;
     }

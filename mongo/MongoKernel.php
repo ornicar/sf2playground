@@ -13,21 +13,6 @@ class MongoKernel extends Kernel
         return __DIR__;
     }
 
-    public function boot()
-    {
-        Symfony\Components\OutputEscaper\Escaper::markClassesAsSafe(array(
-            'Symfony\Components\Form\Form',
-            'Symfony\Components\Form\Field'
-        ));
-
-        #TODO remove me 
-        foreach(array('ApplicationMongoBundleEntityUserProxy') as $class) {
-            @include_once(__DIR__.'/cache/'.$this->getEnvironment().'/doctrine/orm/Proxies/'.$class.'.php');
-        }
-        
-        return parent::boot();
-    }
-
     public function registerBundles()
     {
         $bundles = array(
@@ -36,16 +21,17 @@ class MongoKernel extends Kernel
 
             // enable third-party bundles
             new Symfony\Bundle\ZendBundle\ZendBundle(),
-            new Symfony\Bundle\DoctrineBundle\DoctrineBundle(),
-            new Symfony\Bundle\DoctrineMigrationsBundle\DoctrineMigrationsBundle(),
+            new Symfony\Bundle\DoctrineMongoDBBundle\DoctrineMongoDBBundle(),
 
             // register your bundles here
             new Bundle\MarkdownBundle\MarkdownBundle(),
             new Bundle\MenuBundle\MenuBundle(),
             new Bundle\DoctrineUserBundle\DoctrineUserBundle(),
+            new Bundle\TestSessionBundle\TestSessionBundle(),
+            new Bundle\OfflineBundle\OfflineBundle(),
 
             // register your applications here
-            new Application\MongoBundle\MongoBundle()
+            //new Application\MongoBundle\MongoBundle()
         );
 
         return $bundles;

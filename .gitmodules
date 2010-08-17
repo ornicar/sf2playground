@@ -25,3 +25,6 @@
 [submodule "src/Bundle/MenuBundle"]
 	path = src/Bundle/MenuBundle
 	url = git://github.com/knplabs/MenuBundle.git
+[submodule "GravatarBundle"]
+	path = GravatarBundle
+	url = git://github.com/ornicar/GravatarBundle.git

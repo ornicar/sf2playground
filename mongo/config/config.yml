@@ -13,32 +13,21 @@ web.config:
 web.templating:
     escaping:       htmlspecialchars
 
+offline.config: ~
+
 kernel.session:
     lifetime: 2592000
 
 markdown.parser: ~      # Enable the parser service
 
-time.helper: ~      # Enable the time helper
-
 menu.templating: ~
 
-s2b.config: ~
+doctrine_user.config:
+    db_driver: odm
 
-doctrine.orm:
-  default_entity_manager:   default
-  cache_driver:             apc           # array, apc, memcache, xcache
-  entity_managers:
-    default:
-      connection:           default
-
-# doctrine.dbal:
-#     dbname:   xxxxxxxx
-#     user:     root
-#     password: ~
-# 
-# doctrine.orm: ~
-# 
-# swift.mailer:
-#     transport: gmail
-#     username:  xxxxxxxx
-#     password:  xxxxxxxx
+doctrine_odm.mongodb:
+    server: mongodb://localhost:27017
+    auto_generate_proxy_classes: true
+    default_database: sf2test_dev
+    options:
+        connect: true

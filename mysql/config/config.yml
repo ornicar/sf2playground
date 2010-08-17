@@ -13,6 +13,8 @@ web.config:
 web.templating:
     escaping:       htmlspecialchars
 
+offline.config: ~
+
 kernel.session:
     lifetime: 2592000
 
