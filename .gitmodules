@@ -27,7 +27,7 @@
 	url = git://github.com/knplabs/MenuBundle.git
 [submodule "DoctrineUserBundle"]
 	path = src/Bundle/DoctrineUserBundle
-	url = git://github.com/ornicar/DoctrineUserBundle.git
+	url = git://github.com/knplabs/DoctrineUserBundle.git
 [submodule "src/vendor/doctrine-mongodb"]
 	path = src/vendor/doctrine-mongodb
 	url = git://github.com/doctrine/mongodb-odm.git
