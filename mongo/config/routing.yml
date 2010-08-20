@@ -1,2 +1,5 @@
 doctrine_user_session:
     resource: DoctrineUserBundle/Resources/config/routing/session.yml
+
+doctrine_user_user:
+    resource: DoctrineUserBundle/Resources/config/routing/user.yml

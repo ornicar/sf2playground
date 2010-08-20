@@ -1,11 +1,11 @@
 #!/usr/bin/env php
 <?php
 
-require_once __DIR__.'/S2bKernel.php';
+require_once __DIR__.'/MongoKernel.php';
 
 use Symfony\Bundle\FrameworkBundle\Console\Application;
 
-$kernel = new S2bKernel('prod', true);
+$kernel = new MongoKernel('prod', true);
 
 $application = new Application($kernel);
 $application->run();
