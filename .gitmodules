@@ -25,6 +25,9 @@
 [submodule "src/Bundle/MenuBundle"]
 	path = src/Bundle/MenuBundle
 	url = git://github.com/knplabs/MenuBundle.git
-[submodule "GravatarBundle"]
-	path = GravatarBundle
-	url = git://github.com/ornicar/GravatarBundle.git
+[submodule "DoctrineUserBundle"]
+	path = src/Bundle/DoctrineUserBundle
+	url = git://github.com/ornicar/DoctrineUserBundle.git
+[submodule "src/vendor/doctrine-mongodb"]
+	path = src/vendor/doctrine-mongodb
+	url = git://github.com/doctrine/mongodb-odm.git
