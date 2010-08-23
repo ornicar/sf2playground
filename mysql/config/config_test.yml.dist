@@ -1,0 +1,19 @@
+imports:
+    - { resource: config_dev.yml }
+
+doctrine.dbal:
+  connections:
+    default:
+      driver:               PDOMySql
+      dbname:               sf2test_test
+      user:                 root
+      password:             ~
+      host:                 localhost
+      port:                 ~
+
+web.config:
+    toolbar: false
+
+kernel.test: ~
+
+test_session.config: ~
