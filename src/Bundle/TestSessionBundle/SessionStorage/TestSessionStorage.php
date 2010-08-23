@@ -1,7 +1,7 @@
 <?php
 
 namespace Bundle\TestSessionBundle\SessionStorage;
-use Symfony\Components\HttpFoundation\SessionStorage\SessionStorageInterface;
+use Symfony\Component\HttpFoundation\SessionStorage\SessionStorageInterface;
 
 class TestSessionStorage implements SessionStorageInterface
 {

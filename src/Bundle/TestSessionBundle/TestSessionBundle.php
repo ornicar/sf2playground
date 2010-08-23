@@ -3,7 +3,7 @@
 namespace Bundle\TestSessionBundle;
 
 use Symfony\Framework\Bundle\Bundle as BaseBundle;
-use Symfony\Components\DependencyInjection\ContainerBuilder;
+use Symfony\Component\DependencyInjection\ContainerBuilder;
 
 class TestSessionBundle extends BaseBundle
 {
