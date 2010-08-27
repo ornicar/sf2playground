@@ -31,3 +31,6 @@
 [submodule "src/vendor/doctrine-mongodb"]
 	path = src/vendor/doctrine-mongodb
 	url = git://github.com/doctrine/mongodb-odm.git
+[submodule "src/Bundle/DoctrinePaginatorBundle"]
+	path = src/Bundle/DoctrinePaginatorBundle
+	url = git://github.com/knplabs/DoctrinePaginatorBundle.git
