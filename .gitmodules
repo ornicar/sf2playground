@@ -34,3 +34,6 @@
 [submodule "src/Bundle/DoctrinePaginatorBundle"]
 	path = src/Bundle/DoctrinePaginatorBundle
 	url = git://github.com/knplabs/DoctrinePaginatorBundle.git
+[submodule "src/Bundle/ZendCacheBundle"]
+	path = src/Bundle/ZendCacheBundle
+	url = git://github.com/knplabs/ZendCacheBundle.git
