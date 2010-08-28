@@ -22,7 +22,6 @@ class MysqlKernel extends Kernel
             // enable third-party bundles
             new Symfony\Bundle\ZendBundle\ZendBundle(),
             new Symfony\Bundle\DoctrineBundle\DoctrineBundle(),
-            new Symfony\Bundle\DoctrineMigrationsBundle\DoctrineMigrationsBundle(),
 
             // register your bundles here
             new Bundle\MarkdownBundle\MarkdownBundle(),
@@ -30,6 +29,8 @@ class MysqlKernel extends Kernel
             new Bundle\DoctrineUserBundle\DoctrineUserBundle(),
             new Bundle\TestSessionBundle\TestSessionBundle(),
             new Bundle\OfflineBundle\OfflineBundle(),
+            new Bundle\DoctrinePaginatorBundle\DoctrinePaginatorBundle(),
+            new Bundle\ZendCacheBundle\ZendCacheBundle(),
 
             // register your applications here
             //new Application\Bundle\MysqlBundle()

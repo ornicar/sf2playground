@@ -29,6 +29,8 @@ class MongoKernel extends Kernel
             new Bundle\DoctrineUserBundle\DoctrineUserBundle(),
             new Bundle\TestSessionBundle\TestSessionBundle(),
             new Bundle\OfflineBundle\OfflineBundle(),
+            new Bundle\DoctrinePaginatorBundle\DoctrinePaginatorBundle(),
+            new Bundle\ZendCacheBundle\ZendCacheBundle(),
 
             // register your applications here
             //new Application\MongoBundle\MongoBundle()
