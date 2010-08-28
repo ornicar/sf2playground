@@ -33,7 +33,7 @@ class MongoKernel extends Kernel
             new Bundle\ZendCacheBundle\ZendCacheBundle(),
 
             // register your applications here
-            //new Application\MongoBundle\MongoBundle()
+            new Application\MongoAppBundle\MongoAppBundle()
         );
 
         return $bundles;
