@@ -37,3 +37,6 @@
 [submodule "src/Bundle/ZendCacheBundle"]
 	path = src/Bundle/ZendCacheBundle
 	url = git://github.com/knplabs/ZendCacheBundle.git
+[submodule "src/Bundle/ForumBundle"]
+	path = src/Bundle/ForumBundle
+	url = git://github.com/Exercise/ForumBundle.git
