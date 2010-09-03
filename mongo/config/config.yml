@@ -24,6 +24,9 @@ menu.templating: ~
 doctrine_user.config:
     db_driver: odm
 
+forum.config:
+    db_driver: odm # can be orm or odm
+
 doctrine_odm.mongodb:
     server: mongodb://localhost:27017
     auto_generate_proxy_classes: true

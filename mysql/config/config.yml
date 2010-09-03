@@ -24,6 +24,9 @@ menu.templating: ~
 doctrine_user.config:
     db_driver: orm
 
+forum.config:
+    db_driver: orm # can be orm or odm
+
 doctrine.orm:
   default_entity_manager:   default
   cache_driver:             array           # array, apc, memcache, xcache

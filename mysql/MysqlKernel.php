@@ -27,6 +27,7 @@ class MysqlKernel extends Kernel
             new Bundle\MarkdownBundle\MarkdownBundle(),
             new Bundle\MenuBundle\MenuBundle(),
             new Bundle\DoctrineUserBundle\DoctrineUserBundle(),
+            new Bundle\ForumBundle\ForumBundle(),
             new Bundle\TestSessionBundle\TestSessionBundle(),
             new Bundle\OfflineBundle\OfflineBundle(),
             new Bundle\DoctrinePaginatorBundle\DoctrinePaginatorBundle(),
