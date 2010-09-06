@@ -40,3 +40,6 @@
 [submodule "src/Bundle/ForumBundle"]
 	path = src/Bundle/ForumBundle
 	url = git://github.com/Exercise/ForumBundle.git
+[submodule "TestSessionBundle"]
+	path = TestSessionBundle
+	url = git://github.com/knplabs/TestSessionBundle.git
