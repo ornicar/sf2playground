@@ -23,6 +23,7 @@ menu.templating: ~
 
 doctrine_user.config:
     db_driver: orm
+    use_email_confirmation: false
 
 forum.config:
     db_driver: orm # can be orm or odm

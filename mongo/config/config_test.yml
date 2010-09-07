@@ -10,3 +10,10 @@ web.config:
 kernel.test: ~
 
 test_session.config: ~
+
+doctrine_odm.mongodb:
+    server: mongodb://localhost:27017
+    auto_generate_proxy_classes: true
+    default_database: sf2test_test
+    options:
+        connect: true

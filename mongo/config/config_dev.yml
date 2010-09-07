@@ -7,3 +7,10 @@ zend.logger:
 
 web.config:
     toolbar: true
+
+doctrine_odm.mongodb:
+    server: mongodb://localhost:27017
+    auto_generate_proxy_classes: true
+    default_database: sf2test_dev
+    options:
+        connect: true

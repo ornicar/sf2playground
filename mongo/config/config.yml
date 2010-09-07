@@ -23,6 +23,7 @@ menu.templating: ~
 
 doctrine_user.config:
     db_driver: odm
+    use_email_confirmation: false
 
 forum.config:
     db_driver: odm # can be orm or odm
@@ -30,6 +31,6 @@ forum.config:
 doctrine_odm.mongodb:
     server: mongodb://localhost:27017
     auto_generate_proxy_classes: true
-    default_database: sf2test_dev
+    default_database: sf2test
     options:
         connect: true
