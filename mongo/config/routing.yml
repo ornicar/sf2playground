@@ -1,7 +1,7 @@
 doctrine_user_session:
-    resource: DoctrineUserBundle/Resources/config/routing/session.yml
+    resource: DoctrineUserBundle/Resources/config/routing/session.xml
     prefix: /session
 
 doctrine_user_user:
-    resource: DoctrineUserBundle/Resources/config/routing/user.yml
+    resource: DoctrineUserBundle/Resources/config/routing/user.xml
     prefix: /user
