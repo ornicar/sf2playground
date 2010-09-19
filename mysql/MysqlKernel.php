@@ -16,7 +16,6 @@ class MysqlKernel extends Kernel
     public function registerBundles()
     {
         $bundles = array(
-            new Symfony\Framework\KernelBundle(),
             new Symfony\Bundle\FrameworkBundle\FrameworkBundle(),
 
             // enable third-party bundles

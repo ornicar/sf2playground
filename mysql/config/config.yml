@@ -1,11 +1,9 @@
 parameters:
     kernel.include_core_classes: false
 
-kernel.config:
+web.config:
     charset:             UTF-8
     error_handler_level: null
-
-web.config:
     validation: { enabled: true, annotations: true }
     router: { resource: "%kernel.root_dir%/config/routing.yml" }
 
@@ -14,7 +12,7 @@ web.templating:
 
 offline.config: ~
 
-kernel.session:
+web.session:
     lifetime: 2592000
 
 markdown.parser: ~      # Enable the parser service

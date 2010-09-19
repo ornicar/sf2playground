@@ -7,7 +7,7 @@ zend.logger:
 web.config:
     toolbar: false
 
-kernel.test: ~
+web.test: ~
 
 test_session.config: ~
 
